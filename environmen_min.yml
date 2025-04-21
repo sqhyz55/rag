@@ -1,0 +1,8 @@
+name: phlab
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - spacy
+prefix: /home/phlab/anaconda3/envs/phlab
