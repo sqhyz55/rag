@@ -1,0 +1,31 @@
+# Python 编译相关
+__pycache__/
+*.py[cod]
+*.so
+
+# 本地配置文件
+config/config_local.yaml
+
+# Jupyter 文件输出
+.ipynb_checkpoints/
+nb_test/.ipynb_checkpoints/
+
+# 数据（只保留服务器端）
+data/
+*.csv
+*.tsv
+*.json
+*.zip
+
+# 环境文件
+.env
+venv/
+.envrc
+
+# macOS 系统文件
+.DS_Store
+
+# log 和 cache
+*.log
+.cache/
+
